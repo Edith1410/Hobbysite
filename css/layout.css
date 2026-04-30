@@ -1,0 +1,23 @@
+.logo-section {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+}
+@media (min-width: 800px) {
+  #big-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #reading-pic {
+    justify-self: center;
+  }
+  #gallery-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 800px) {
+  #gallery-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
