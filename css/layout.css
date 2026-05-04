@@ -1,13 +1,18 @@
+#hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 @media (min-width: 1024px) {
-  /* header section HJÆLP!! */
+  /* header section */
   .logo-section {
     display: grid;
-    grid-template-columns: 1fr 1fr auto;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
   }
 
   #logo-billede {
     justify-self: start;
+    max-height: 10rem;
   }
 
   .title {
